@@ -106,7 +106,7 @@ describe 'ActiveRecord Instance' do
     end
 
     it 'should return postal_address on postal_address' do
-      expect(FooBar.new.postal_address).to eql("RECIPIENT\nSTREET\nCITY REGION POSTALCODE\nUnited States")
+      expect(FooBar.new.postal_address).to eql("RECIPIENT\nSTREET\nCITY REGION_SHORT POSTALCODE\nUnited States")
     end
   end
 
@@ -128,7 +128,7 @@ describe 'ActiveRecord Instance' do
     end
 
     it 'should return formatted address on my_postal_address_method' do
-      expect(FooBarCustomMethod.new.my_postal_address_method).to eql("RECIPIENT\nSTREET\nCITY REGION POSTALCODE\nUnited States")
+      expect(FooBarCustomMethod.new.my_postal_address_method).to eql("RECIPIENT\nSTREET\nCITY REGION_SHORT POSTALCODE\nUnited States")
     end
   end
 
@@ -140,7 +140,7 @@ describe 'ActiveRecord Instance' do
 
   describe 'Customized array of symbols' do
     it 'should return formatted address with two lines for street' do
-      expect(FooBarCustomArray.new.postal_address).to eql("RECIPIENT\nAddress line 1\nAddress line 2\nCITY REGION POSTALCODE\nUnited States")
+      expect(FooBarCustomArray.new.postal_address).to eql("RECIPIENT\nAddress line 1\nAddress line 2\nCITY REGION_SHORT POSTALCODE\nUnited States")
     end
   end
 
