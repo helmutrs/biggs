@@ -4,11 +4,11 @@ biggs is a small ruby gem/rails plugin for formatting postal addresses from over
 
 As a ruby gem:
 
-    sudo gem install biggs
+    sudo gem install eropple-biggs
 
-If your rather prefer to install it as a plugin for rails, from your application directory simply run:
+Or in a Gemfile:
 
-    script/plugin install git://github.com/yolk/biggs.git
+    gem 'eropple-biggs', '~> 0.4.0'
 
 ### Standalone usage
 
@@ -144,6 +144,6 @@ biggs knows how to format addresses of over 60 different countries. If you are m
 * United States
 * Yemen
 
-biggs is tested to behave well with Rails 3.0, 3.1, 3.2 and 4.0
+biggs is tested to behave well with Rails 3.0, 3.1, 3.2 and 4.0.
 
-Copyright (c) 2009-2013 Yolk Sebastian Munz & Julia Soergel GbR
+Copyright (c) 2009-2013 Yolk Sebastian Munz & Julia Soergel GbR, 2015 Ed Ropple

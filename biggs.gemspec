@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = 'eropple-biggs'
   s.version     = Biggs::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Sebastian Munz']
-  s.email       = ['sebastian@yo.lk']
-  s.homepage    = 'https://github.com/yolk/biggs'
+  s.authors     = ['Sebastian Munz', 'Ed Ropple']
+  s.email       = ['sebastian@yo.lk', 'ed+biggs@edropple.com']
+  s.homepage    = 'https://github.com/eropple/biggs'
   s.summary     = 'biggs is a small ruby gem/rails plugin for formatting postal addresses from over 60 countries.'
-  s.description = 'biggs is a small ruby gem/rails plugin for formatting postal addresses from over 60 countries.'
+  s.description = 'biggs is a small ruby gem/rails plugin for formatting postal addresses from over 60 countries. This version is maintained by Ed Ropple off of the abandoned source.'
 
   s.rubyforge_project = 'biggs'
 
